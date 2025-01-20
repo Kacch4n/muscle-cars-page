@@ -26,6 +26,20 @@ ul {
     flex: 1;
 }
 
+.four-cars-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-container {
+    display: flex;
+}
+
+.first-image-container , .second-image-container , .third-image-container , .fourth-image-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #logo {
     max-width: 4%;
 }
