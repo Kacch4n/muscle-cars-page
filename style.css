@@ -12,6 +12,20 @@ ul {
     justify-content: space-between;
 }
 
+.main {
+    display: flex;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-right {
+    flex: 1;
+}
+
 #logo {
     max-width: 4%;
 }
