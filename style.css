@@ -33,6 +33,7 @@ ul {
 
 .images-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .first-image-container , .second-image-container , .third-image-container , .fourth-image-container {
