@@ -40,6 +40,14 @@ ul {
     flex-direction: column;
 }
 
+.quote-container {
+    display: flex;
+}
+
+.trigger-container {
+    display: flex;
+}
+
 #logo {
     max-width: 4%;
 }
