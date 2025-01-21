@@ -1,10 +1,17 @@
 body {
     display: flex;
     flex-flow: column wrap;
+    padding: 0 200px;
 }
 
 ul {
     display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -14,16 +21,26 @@ ul {
 
 .main {
     display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .main-left {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     flex: 1;
+    align-items: flex-start;
 }
 
 .main-right {
+    display: flex;
     flex: 1;
+}
+
+#main-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
 }
 
 .four-cars-container {
@@ -51,8 +68,4 @@ ul {
 
 #logo {
     max-width: 4%;
-}
-
-#main-image {
-    max-width: 30%;
 }
