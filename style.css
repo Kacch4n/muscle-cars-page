@@ -33,12 +33,16 @@ button {
     background-color: #3882F6;
 }
 
-#logo {
-    max-width: 4%;
+#whole-header-container {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px 200px 100px 200px;
+    background-color: #1F2937;
+    gap: 50px;
 }
 
-#footer {
-    flex: 1;
+#logo {
+    max-width: 4%;
 }
 
 .main-left p {
@@ -57,10 +61,6 @@ button {
     gap: 15px;
 }
 
-.main, .header {
-    background-color: #1F2937;
-}
-
 .main-left {
     display: flex;
     flex-flow: column wrap;
@@ -74,8 +74,9 @@ button {
 }
 
 #main-image {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 400px;
+    max-width: 600px;
+    width: 600px;
     margin: auto;
 }
 
@@ -140,4 +141,10 @@ button {
     align-self: center;
     justify-content: center;
     background-color: #3882F6;
+}
+
+#footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
